@@ -16,13 +16,14 @@ import { ToastrModule } from 'ngx-toastr';
 import { AppComponent } from './app.component';
 import { TarjetaCreditoComponent } from './components/components/tarjeta-credito/tarjeta-credito.component';
 
-
+import { HijoEjemploComponent } from './components/hijo-ejemplo/hijo-ejemplo.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    TarjetaCreditoComponent
+    TarjetaCreditoComponent,
+    HijoEjemploComponent
   ],
   imports: [
     CommonModule,

@@ -15,6 +15,7 @@ export class TarjetaCreditoComponent implements OnInit {
   listTarjetas: any[] = [];
   form: FormGroup;
   accion = "Agregar";
+  data = "Datos del hijo";
   id: number | undefined;
   constructor(private fb: FormBuilder, private toastr: ToastrService, private _tarjetaService: TarjetaService) {
 

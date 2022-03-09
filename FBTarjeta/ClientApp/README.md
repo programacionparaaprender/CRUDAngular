@@ -43,3 +43,7 @@ ng g component components/TarjetaCredito
 
 
 ng g s services/tarjeta
+
+### Crear componentes
+https://answerbun.com/
+ng g hijo
